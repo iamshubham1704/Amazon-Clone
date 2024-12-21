@@ -1,0 +1,93 @@
+.Navbarlogo {
+    height: 70px;
+    background-color: #131921;
+    display: flex;
+    color: white;
+
+    img {
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    p {
+        margin: 20px;
+        cursor: pointer;
+        background-color: #131921;
+    }
+
+    input {
+        margin-left: 10px;
+        width: 900px;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+        background-color: aliceblue;
+
+    }
+
+    select[id="Language"] {
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 10px;
+        cursor: pointer;
+        background-color: aliceblue;
+
+        option {
+            background-color: white;
+            color: black;
+            padding: 10px;
+        }
+    }
+
+    select[id="User-Account"] {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #333;
+        outline: none;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    button {
+        width: 100px;
+        height: 50px;
+        background-color: #bfdee5;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+    }
+
+
+}
+
+.navbarmenu{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+    /* margin: 10px; */
+    background-color: #0f1111;
+    height: 30px;
+
+    button{
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        background-color: #0f1111;
+    }
+}
